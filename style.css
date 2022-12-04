@@ -1,0 +1,54 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hero-box, .hero-header{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item ul, li{
+    padding: 15px;
+    display: flex;
+    list-style: none;   
+}
+.primary-button{
+    background-color: red;
+    padding: 5px 8px;
+    margin: 5px 4px;
+    display: inline-block;
+    border-radius: 15px;
+    border: none ;
+    color: white;
+}
+.hero-text, .hero-img{
+    padding: 4px 8px;
+    margin: 8px 4px;
+}
+img{
+    border-radius: 50%;
+}
+.hero-header{
+    background-color: rgb(212, 219, 219);
+    padding: 50px 0;
+}
+.button{
+    padding: 15px 0;
+}
+.secondery-button{
+    background-color: blanchedalmond;
+    padding: 5px 8px;
+    margin: 5px 4px;
+    display: inline-block;
+    border-radius: 15px;
+    border: none ;
+    color: black;
+}
